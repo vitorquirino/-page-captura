@@ -11,6 +11,7 @@ body{
 .container{
     max-width: 1000px;
     margin: auto;
+
 }
 
 
@@ -25,6 +26,53 @@ header{
     font-size: 28px;
 }
 
-div{
+section{
+    padding: 20px;
+    background-image: url(img/people.jpg);
+    background-size: cover;
+    overflow: hidden;
+    
+}
+
+.formContainer{
+    max-width: 230px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    float: right;
+}
+
+h2{
+    font-size:20px ;
+}
+
+p{
+    font-size: 14px;
+}
+
+.mb{
+    margin-bottom:15px ;
+}
+
+input,select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
     color: white;
+    background-color:dodgerblue ;
+    font-weight: bold;
+}
+
+select{
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    appearance: none;
+
+    background-image: url(img/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
 }
